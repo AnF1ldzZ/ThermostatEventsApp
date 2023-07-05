@@ -219,7 +219,7 @@ namespace ThermostatEventsApp
 
         private void SeedData()
         {
-            _temperatureData = new double[] { 16, 17, 16.5, 18, 19, 22, 24, 26.75, 28.7, 27.6, 26, 24, 22, 45, 68, 86.45 };
+            _temperatureData = new double[] { 16, 17, 16.5, 18, 19, 22, 24, 26.75, 28.7, 27.6, 26, 24, 22, 45, 68, 86.45 ,90};
         }
 
         protected void OnTemperatureReachesWarningLevel(TemperatureEventArgs e)
